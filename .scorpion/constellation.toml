@@ -1,0 +1,24 @@
+# registered namespace
+[io.scorpion]
+version = 1
+
+[io.scorpion.base]
+version = "0.1.3"
+src = "gh:scorpion/base"
+type = "docker-image"
+license = "Apache-2.0"
+site = "https://scorpion.io"
+
+[[io.scorpion.base.authors]]
+name = "Brett Wilcox"
+email = "brett@scorpion.io"
+homepage = "https://scorpion.io"
+role = "Developer"
+
+[[io.scorpion.base.require]]
+"gh:scorpion/base" = ">=0.1"
+# Any settings go here.
+
+[[io.scorpion.base.require-dev]]
+"gh:scorpion/base" = ">=0.1"
+# Any settings go here.
